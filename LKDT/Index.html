@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minta Technikum - Digitális Nyílt Nap</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <h2>Minta Technikum</h2>
+            </div>
+            <ul>
+                <li><a href="#info">Információk</a></li>
+                <li><a href="#programok">Programok</a></li>
+                <li><a href="#jelentkezes">Jelentkezés</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="info" class="hero">
+        <h1>Digitális Nyílt Nap 2026</h1>
+        <p>Ismerd meg a jövő technológiáit és a Minta Technikum képzéseit!</p>
+        <div class="event-details">
+            <p><strong>Időpont:</strong> 2026. november 15. | 09:00 - 15:00</p>
+            <p><strong>Helyszín:</strong> 1051 Budapest, Fő út 12. (És online a Stream csatornánkon)</p>
+        </div>
+    </section>
+
+    <section id="programok">
+        <h2>Programok</h2>
+        
+        <div class="filter-container">
+            <button class="filter-btn active" data-category="all">Összes program</button>
+            <button class="filter-btn" data-category="it">Informatika & Szoftver</button>
+            <button class="filter-btn" data-category="elektronika">Elektronika & Robotika</button>
+            <button class="filter-btn" data-category="eloadas">Előadások & Tájékoztatók</button>
+        </div>
+
+        <div class="program-grid">
+            <div class="card" data-category="it">
+                <span class="badge">Informatika</span>
+                <h3>Webfejlesztés Műhely</h3>
+                <p><strong>Időpont:</strong> 09:30 - 10:30 | 102-es terem</p>
+                <p>Építs saját weboldalt 60 perc alatt HTML, CSS és JS alapokon!</p>
+            </div>
+
+            <div class="card" data-category="elektronika">
+                <span class="badge">Elektronika</span>
+                <h3>Robotika & Arduino Alapok</h3>
+                <p><strong>Időpont:</strong> 10:00 - 11:30 | Műhely 3</p>
+                <p>Ismerkedj meg a mikrokontrollerek világával és a robotprogramozással.</p>
+            </div>
+
+            <div class="card" data-category="eloadas">
+                <span class="badge">Előadás</span>
+                <h3>Igazgatói Tájékoztató</h3>
+                <p><strong>Időpont:</strong> 11:00 - 12:00 | Díszterem</p>
+                <p>Minden, amit a felvételi eljárásról és a duális képzésről tudni kell.</p>
+            </div>
+
+            <div class="card" data-category="it">
+                <span class="badge">Informatika</span>
+                <h3>Etikus Hackelés & Kiberbiztonság</h3>
+                <p><strong>Időpont:</strong> 12:30 - 13:30 | 204-es gépterem</p>
+                <p>Hogyan védjük meg adatainkat a hálózaton? Interaktív bemutató.</p>
+            </div>
+
+            <div class="card" data-category="elektronika">
+                <span class="badge">Elektronika</span>
+                <h3>3D Nyomtatás a Gyakorlatban</h3>
+                <p><strong>Időpont:</strong> 13:00 - 14:00 | Lab 1</p>
+                <p>A tervezéstől a nyomtatásig: nézd meg működés közben a legújabb nyomtatókat!</p>
+            </div>
+
+            <div class="card" data-category="eloadas">
+                <span class="badge">Előadás</span>
+                <h3>Diákélet és Diákönkormányzat</h3>
+                <p><strong>Időpont:</strong> 14:00 - 14:45 | Díszterem</p>
+                <p>Kötetlen beszélgetés a jelenlegi diákokkal a közösségi életről és projektekről.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="jelentkezes">
+        <h2>Jelentkezés a Nyílt Napra</h2>
+        <form id="registration-form" novalidate>
+            <div class="form-group">
+                <label for="fullname">Teljes név *</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Gipsz Jakab">
+                <span class="error-message" id="name-error">Kérjük, adja meg a teljes nevét!</span>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail cím *</label>
+                <input type="email" id="email" name="email" placeholder="pelda@email.hu">
+                <span class="error-message" id="email-error">Kérjük, érvényes e-mail címet adjon meg!</span>
+            </div>
+
+            <div class="form-group">
+                <label for="role">Jelentkező jogállása *</label>
+                <select id="role" name="role">
+                    <option value="">-- Válasszon --</option>
+                    <option value="student">Diák (Nyolcadikos)</option>
+                    <option value="parent">Szülő / Gondviselő</option>
+                    <option value="other">Egyéb érdeklődő</option>
+                </select>
+                <span class="error-message" id="role-error">Kérjük, válasszon egy opciót!</span>
+            </div>
+
+            <button type="submit">Jelentkezés beküldése</button>
+
+            <div id="form-feedback"></div>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Minta Technikum - Minden jog fenntartva.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
