@@ -1,0 +1,22 @@
+==================================================
+MINTA TECHNIKUM DIGITÁLIS NYÍLT NAP - EGYÉNI REFLEXIÓK
+==================================================
+
+Projekt: Minta Technikum Digitális Nyílt Nap Miniprojekt
+Megvalósítás: 1 fős egyéni munkavégzés (Solo Coders)
+Fejlesztő: Fürtös Levente
+
+--------------------------------------------------
+1. REFLEXIÓ - Frontend Fejlesztő & Projektvezető Szerepkör
+--------------------------------------------------
+"Egyedül elvégezni egy 3 fős csapatra tervezett miniprojektet komoly kihívást jelentett, főleg az 8 tanórás időkorlát miatt. Projektvezetőként a legfontosabb feladatom a prioritások felállítása volt: biztosítanom kellett, hogy a HTML szerkezet letisztult és semantikailag pontos legyen, valamint a kötelező funkciók hiánytalanul elkészüljenek. Megtanultam, hogyan lehet hatékonyan beosztani az időt és átlátni a teljes fejlesztési folyamatot a tervezéstől a dokumentációig."
+
+--------------------------------------------------
+2. REFLEXIÓ - UI/UX Tervező & HTML/CSS Fejlesztő Szerepkör
+--------------------------------------------------
+"A vizuális megvalósítás során a letisztult, modern megjelenésre és a mobil-first szemléletre törekedtem. A CSS Grid és Flexbox technikák használata jelentősen megkönnyítette a reszponzív szerkezet felépítését. A legnagyobb tanulság az volt, hogy a jó UI nem a túlbonyolított dizájnban rejlik, hanem a könnyű navigációban és az átlátható információkban. Mobilon és asztali kijelzőn is gyorsan és kényelmesen használható oldalt sikerült létrehozni."
+
+--------------------------------------------------
+3. REFLEXIÓ - JavaScript Fejlesztő & Tesztelő Szerepkör
+--------------------------------------------------
+"A natív JavaScript megírása során arra törekedtem, hogy tiszta, jól olvasható és offline is hibátlanul működő kódot hozzak létre. A programszűrő és a kliensoldali űrlap-validáció kidolgozása során különös figyelmet fordítottam a hibakezelésre (pl. érvénytelen e-mail formátumok kiszűrése). A tesztelési fázisban talált apróbb hibákat sikerült a végleges leadás előtt javítani, így egy stabilan működő végeredmény született."

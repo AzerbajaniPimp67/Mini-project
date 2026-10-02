@@ -1,0 +1,36 @@
+==================================================
+TESZTJEGYZŐKÖNYV ÉS JAVÍTÁSI LISTA
+==================================================
+
+Tesztelés dátuma: 2026.10.02.
+Tesztelő: Fürtös Levente
+Tesztelt környezet: Google Chrome, Mozilla Firefox, DevTools Mobile Emulator (375px - 1920px)
+
+--------------------------------------------------
+TESZTESETEK (TEST CASES)
+--------------------------------------------------
+
+1. Teszteset: Layout és Reszponzivitás
+- Elvárás: Az oldal mobilon single-column (1 oszlopos), asztali nézetben multi-column Grid elrendezést használ.
+- Eredmény: MEGFELELT.
+
+2. Teszteset: Programok szűrése kategóriák szerint
+- Elvárás: A szűrőgombokra kattintva csak a megfelelő kategóriájú kártyák maradnak láthatóak, a többi elrejtőzik.
+- Eredmény: MEGFELELT.
+
+3. Teszteset: Jelentkezési űrlap validációja (Üres / Hibás adatok)
+- Elvárás: Hiányos név, érvénytelen e-mail vagy ki nem választott jogállás esetén piros hibaüzenet jelenik meg, a küldés megáll.
+- Eredmény: JAVÍTVA (Lásd hibalista #1).
+
+4. Teszteset: Offline működés
+- Elvárás: Internetkapcsolat nélkül, helyi fájlrendszerből nyitva is hibátlanul betöltenek a stílusok és a scriptek.
+- Eredmény: MEGFELELT.
+
+--------------------------------------------------
+JAVÍTÁSI LISTA (BUG LOG)
+--------------------------------------------------
+- Hiba #1: Az űrlap elküldhető volt hiányos e-mail címmel (pl. "teszt@").
+  -> Javítás: Szigorúbb Regex (isValidEmail) kifejezés hozzáadva a js/app.js-hez.
+
+- Hiba #2: Mobilon a szűrőgombok túllógtak a képernyő szélén.
+  -> Javítás: `flex-wrap: wrap;` tulajdonság hozzáadva a `.filter-container` CSS osztályhoz.

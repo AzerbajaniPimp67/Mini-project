@@ -1,0 +1,37 @@
+==================================================
+CSAPATSZERZŐDÉS ÉS ÁLLAPOTJELENTÉSEK
+==================================================
+
+CSAPATSZERZŐDÉS
+- Csapatnév: Solo Coders
+- Feladat: Minta Technikum Digitális Nyílt Nap miniprojekt
+- Kommunikációs csatorna: Személyes / Helyi fejlesztői környezet
+- Szabályok: Egyéni munkavégzés keretében a fejlesztő felelős a HTML, CSS, JS modulok elkészítéséért, a tesztelésért és a teljes dokumentációért.
+
+--------------------------------------------------
+ÁLLAPOTJELENTÉS #1 (3. tanóra után)
+--------------------------------------------------
+Elért eredmények:
+- A projekt könyvtárszerkezete és a Git repository létrejött.
+- Az index.html alapszerkezete (fejléc, info szekció, kártyák vázlata, űrlap) elkészült.
+- A style.css alapvető stílusai és a reszponzív Grid elrendezés beállításra kerültek.
+
+Problémák / Kihívások:
+- Kártyák igazítása és kategória badge-ek elrendezése mobilos nézetben.
+
+Következő lépések:
+- JavaScript funkciók (programok szűrése és űrlap-validáció) megírása.
+
+--------------------------------------------------
+ÁLLAPOTJELENTÉS #2 (6. tanóra után)
+--------------------------------------------------
+Elért eredmények:
+- Interaktív programkategória szűrő sikeresen integrálva van a JS fájlban.
+- Client-side űrlap-validáció (név, e-mail, jogállás) működik, hibaüzenetek és visszajelzések megjelennek.
+- Reszponzivitás tesztelve asztali és mobil nézetben.
+
+Problémák / Kihívások:
+- Hibás formátumú e-mail címek kiszűrése (Regex beállítása).
+
+Következő lépések:
+- Tesztjegyzőkönyv kitöltése, hibalista javítása és a bemutató előkészítése.
